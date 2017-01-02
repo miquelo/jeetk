@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.jeetk.project</groupId>
+		<artifactId>jeetk-project</artifactId>
+		<version>0.1.0</version>
+	</parent>
+	
+	<groupId>net.jeetk.faces</groupId>
+	<artifactId>jeetk-faces</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	
+	<name>Java EE Toolkit - Faces</name>
+	<description>
+		Java Server Faces components, behaviors, tags and other resources.
+	</description>
+	
+	<dependencies>
+	
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+		
+	</dependencies>
+	
+</project>
